@@ -1,5 +1,5 @@
 
-await import('https://cdn.jsdelivr.net/gh/switchangel/strudel-scripts@main/prebake.strudel')
+await import('https://cdn.jsdelivr.net/gh/switchangel/strudel-scripts/prebake.strudel')
 
 
 const humanize = register('humanize', (count, parts, cmin, x) =>
