@@ -1,7 +1,4 @@
 
-await import('https://cdn.jsdelivr.net/gh/switchangel/strudel-scripts/prebake.strudel')
-
-
 const humanize = register('humanize', (count, parts, cmin, x) =>
   x.layer(
     ...new Array(count).keys().map(i => x =>
